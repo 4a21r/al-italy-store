@@ -1,16 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       colors: {
-        accent: '#93C572',
-        'accent-light': '#A8D08D',
-        'accent-dark': '#7CB05A',
+        accent: '#C5A059',
+        'accent-light': '#D4B87A',
+        'accent-dark': '#A88B4A',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
